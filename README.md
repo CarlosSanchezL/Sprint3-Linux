@@ -47,14 +47,8 @@ Deberías ver el mensaje:
 
 Spring Boot + Oracle XE corriendo correctamente!
 
-5.Estructura del proyecto
-spring-linux-project/
-├── src/                    # Código fuente de la aplicación
-├── Dockerfile              # Configuración para crear la imagen Docker de la aplicación
-├── docker-compose.yml      # Configuración de los servicios (app + base de datos)
-├── pom.xml                 # Dependencias y configuración de Maven
-└── README.md               # Este archivo
-6.Detener la aplicación
+
+5.Detener la aplicación
 Para detener los contenedores:
 bashdocker-compose down
 Para eliminar los volúmenes también:
